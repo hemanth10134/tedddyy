@@ -5,7 +5,7 @@ function typeWriter() {
     if (i < text.length) {
         document.getElementById('walking-text').innerHTML += text.charAt(i);
         i++;
-        setTimeout(typeWriter, 50);
+        setTimeout(typeWriter, 30);
     }
 }
 typeWriter();
